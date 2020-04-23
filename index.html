@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal </title>
+</head>
+<style>
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .left {
+        display: inline block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+    }
+
+    .left img {
+        width: 54px;
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+
+    .mid {
+        display: block;
+        width: 35%;
+        margin: auto;
+        border: 2px solid green;
+    }
+
+    .right {
+        display: inline block;
+        position: absolute;
+        right: 34px;
+        top: 20px;
+       
+    }
+
+    .navbar {
+        display: inline block;
+    }
+
+    .navbar a {
+        font-size: 20px;
+        display: inline block;
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar a:hover,
+    .navbar a.active {
+        text-decoration: underline;
+        color: grey;
+
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+    }
+    .formgroup input{
+        padding: 10px;
+    margin: 10px;
+    width: 70%;
+    background-color: rgba(136, 133, 133, 0.5);
+    color: white;
+    border: none;
+    outline: none;
+    }
+        
+    .submit {
+    width: 40%;
+    background: none;
+    padding: 4px;
+    outline: none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 33px;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin-left: 3%;
+    border: 2px solid rgb(190, 190, 190);
+    color: rgb(190, 190, 190);
+  }
+  .submit:hover {
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/ds.png" alt="">
+            <div>JOBS</div>
+        </div>
+        <div class="mid">
+
+        </div>
+        <div class="right">
+            <ul class="navbar">
+                <a href="#" class="active">Home</a>
+                <a href="#">Jobs</a>
+                <a href="contact.html">Contact</a>
+                <a href="#">About</a>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>SING UP TO DAILY NEW JOBS UPDATE</h1>
+        <form action="noaction">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Surname name">
+            </div>
+            <div class="formgroup">
+                <input="Date" name="" placeholder="Date of birth">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Email">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your phone">
+            </div>
+
+            <div>
+                <button class="submit">Login</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
